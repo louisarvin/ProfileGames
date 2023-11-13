@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>✨ Profile Games ✨</title>
+    <!-- 👇 css code file 👇 -->
+    <link rel="stylesheet" href="./src/style/global.css"/>
+</head>
+<body>
+
+
+ <div class="container">
+        <header>
+            <h1>PROFILE GAMES </h1>
+            <h2>Level : <span id="levelTxt">0</span></h2>
+            <h2>Total Makan : <span id="coinTxt"></span></h2>
+        </header>
+
+        <main>
+            <h3 id="title__1"></h3>
+
+
+            <div class="wrapper">
+                <h3 id="title__2">My Instagram : <a href="https://www.instagram.com/louisarvnn" target="_blank">louisarvnn</a>
+                <h3 id="title__2">My Github :<a href="https://github.com/louisarvin" target="_blank">Github</a></h3>
+                <h3 id="title__2">JANGAN LUPA DI CLOSE</h3>
+                        <button class="btn" id="btn" onclick="close()"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+
+
+            <div class="board"></div>
+
+            <div class="arrow">
+                <button id="kanan" onclick="_kanan()"><i class="fa-solid fa-arrow-right kanan"></i></button>
+                <button id="atas" onclick="_atas()"><i class="fa-solid fa-arrow-up atas"></i></button>
+                <button id="kiri" onclick="_kiri()"><i class="fa-solid fa-arrow-left kiri"></i></button>
+                <button id="bawah" onclick="_bawah()"><i class="fa-solid fa-arrow-down bawah"></i></button>
+            </div>
+        </main>
+    </div>
+    <!-- 👇 javascript code file 👇 -->
+    <script src="./src/js/index.js"></script>
+    <script src="https://kit.fontawesome.com/c73ea9f701.js" crossorigin="anonymous"></script>
+</body>
+</html>
